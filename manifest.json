@@ -1,0 +1,24 @@
+{
+  "name": "Knowledge Searcher",
+  "short_name": "Knlge Serch",
+  "default_locale": "ja",
+  "description": "__MSG_extDescription__",
+  "version": "1.0.0",
+  "content_scripts": [{
+    "js": ["js/jquery-3.2.1.min.js", "js/script.js"],
+    "matches": ["http://*.google.com/*", "https://*.google.com/*"]
+  }],
+  "permissions": [
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "16": "img/school16.png",
+    "48": "img/school64.png",
+    "128": "img/school128.png"
+  },
+  "manifest_version": 2
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Set Knowledge</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<style>
+		</style>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/locale.js"></script>
+		<script src="js/options.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="my-3"><img src="img/school.svg" width="30px"/><span  data-locale="optionsTitle">Knowledge Searcher Settings</span></h1>
+			<p data-locale="optionsWhatsKnowledge">'Knowledge' is an open-source knowledge base platform. <a href='https://information-knowledge.support-project.org/en/'>More information.</a></p>
+			<div>
+				<div class="form-group">
+					<label for="inputUrl">Knowledge URL</label>
+					<input type="text" name="url" id="inputUrl" class="form-control" placeholder="https://xxxx.com/knowledge"/>
+					<small class="form-text text-muted" data-locale="optionsUrlAdvice">Your Knowledge site URL without last slash.</small>
+				</div>
+				<div class="form-group">
+					<label for="inputToken">Accsess Token</label>
+					<input type="password" name="token" id="inputToken" class="form-control" />
+					<small class="form-text text-muted" data-locale="optionsHowToGetToken">You can get Access Token from your Knowledge-Menu with Login.</small>
+				</div>
+				<div class="form-group">
+					<label for="inputLimit">Limit</label>
+					<input type="number" name="limit" id="inputLimit" class="form-control" val="10" placeholder="<= 10" />
+					<small class="form-text text-muted" data-locale="optionsLimitAdvice">It affects the search speed.</small>
+				</div>
+				<div class="form-group">
+					<button type="submit" id="save" class="btn btn-lg btn-primary m-3"  data-locale="optionsSave"/>SAVE</button>
+					<button type="submit" id="clear" class="btn btn-lg btn-secondary m-3"  data-locale="optionsClear"/>CLEAR</button>
+				</div>
+				<div class="alert alert-danger collapse" id="error"></div>
+				<div class="alert alert-info collapse" id="info"></div>
+			</div>
+			<footer class="text-center">
+				<div>Extension made by <a href="https://github.com/nichesuch" title="nichesuch">nichesuch</a> published on <a href="https://github.com/nichesuch/knowledge_searcher" title="GitHub">github.com</a></div>
+				<div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+			</footer>
+		</div>
+	</body>
+</html>

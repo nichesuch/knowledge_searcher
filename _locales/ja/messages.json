@@ -1,0 +1,41 @@
+{
+  "extDescription": {
+    "message": "この拡張機能を使用すると、Google検索と同時にオープンソースの情報共有サービスKnoledgeを検索できます。"
+  },
+  "optionsTitle": {
+    "message": "Knowledge Searcher設定"
+  },
+  "optionsWhatsKnowledge": {
+    "message": "Knowledgeはオープンソースの情報共有サービスです。詳細は<a href='https://information-knowledge.support-project.org/ja/'>こちら</a>"
+  },
+  "optionsUrlAdvice": {
+    "message": "KnowledgeのURLをスラッシュなしで入力してください。"
+  },
+  "optionsHowToGetToken": {
+    "message": "Knowledgeにログイン後にメニューからAccess Tokenを取得できます。"
+  },
+  "optionsLimitAdvice": {
+    "message": "検索速度に影響があります。初期値は10です。"
+  },
+  "optionsSave": {
+    "message": "保存"
+  },
+  "optionsClear": {
+    "message": "クリア"
+  },
+  "optionsErrorSave": {
+    "message": "設定保存中に異常がありました。"
+  },
+  "optionsInfoSave": {
+    "message": "設定を保存しました。"
+  },
+  "optionsErrorClear": {
+    "message": "設定削除中に異常がありました。"
+  },
+  "optionsInfoClear": {
+    "message": "設定を削除しました。"
+  },
+  "optionsErrorGet": {
+    "message": "設定取得中に異常がありました。"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extDescription": {
+    "message": "You can search your Knowledge(https://information-knowledge.support-project.org/en/) at the same time as Google search with this extension."
+  },
+  "optionsTitle": {
+    "message": "Knowledge Searcher Settings"
+  },
+  "optionsWhatsKnowledge": {
+    "message": "'Knowledge' is an open-source knowledge base platform. <a href='https://information-knowledge.support-project.org/en/'>More informations.</a>"
+  },
+  "optionsUrlAdvice": {
+    "message": "Your Knowledge site URL without last slash."
+  },
+  "optionsHowToGetToken": {
+    "message": "You can get the Access Token from the menu after logging in to Knowledge."
+  },
+  "optionsLimitAdvice": {
+    "message": "It affects the search speed. Default is 10."
+  },
+  "optionsSave": {
+    "message": "SAVE"
+  },
+  "optionsClear": {
+    "message": "DELETE"
+  },
+  "optionsErrorSave": {
+    "message": "Error has occurred while save the settings."
+  },
+  "optionsInfoSave": {
+    "message": "The settings have been saved."
+  },
+  "optionsErrorClear": {
+    "message": "Error has occurred while delete the settings."
+  },
+  "optionsInfoClear": {
+    "message": "The settings have been deleted."
+  },
+  "optionsErrorGet": {
+    "message": "Error has occurred while get the settings."
+  }
+}
